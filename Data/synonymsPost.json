@@ -1,0 +1,44 @@
+[
+    {
+        "word": "are",
+        "subs": [
+            "am"
+        ]
+    },
+    {
+        "word": "yourself",
+        "subs": [
+            "myself"
+        ]
+    },
+    {
+        "word": "myself",
+        "subs": [
+            "yourself"
+        ]
+    },
+    {
+        "word": "me",
+        "subs": [
+            "you"
+        ]
+    },
+    {
+        "word": "you",
+        "subs": [
+            "i"
+        ]
+    },
+    {
+        "word": "your",
+        "subs": [
+            "my"
+        ]
+    },
+    {
+        "word": "you are",
+        "subs": [
+            "i'm"
+        ]
+    }
+]

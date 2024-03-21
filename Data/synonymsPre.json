@@ -1,0 +1,98 @@
+[
+    {
+        "word": "don't",
+        "subs": [
+            "dont"
+        ]
+    },
+    {
+        "word": "can't",
+        "subs": [
+            "cant"
+        ]
+    },
+    {
+        "word": "won't",
+        "subs": [
+            "wont"
+        ]
+    },
+    {
+        "word": "remember",
+        "subs": [
+            "recollect"
+        ]
+    },
+    {
+        "word": "dreamed",
+        "subs": [
+            "dreamt"
+        ]
+    },
+    {
+        "word": "dream",
+        "subs": [
+            "dreams"
+        ]
+    },
+    {
+        "word": "perhaps",
+        "subs": [
+            "maybe"
+        ]
+    },
+    {
+        "word": "what",
+        "subs": [
+            "how, when"
+        ]
+    },
+    {
+        "word": "yes",
+        "subs": [
+            "certainly"
+        ]
+    },
+    {
+        "word": "machine",
+        "subs": [
+            "computer"
+        ]
+    },
+    {
+        "word": "computers",
+        "subs": [
+            "computer"
+        ]
+    },
+    {
+        "word": "was",
+        "subs": [
+            "were"
+        ]
+    },
+    {
+        "word": "you're",
+        "subs": [
+            "you are"
+        ]
+    },
+    {
+        "word": "i'm",
+        "subs": [
+            "i am"
+        ]
+    },
+    {
+        "word": "same",
+        "subs": [
+            "alike"
+        ]
+    },
+    {
+        "word": "sorry",
+        "subs": [
+            "apologise"
+        ]
+    }
+]

@@ -1,0 +1,612 @@
+[
+    {
+        "word": "",
+        "weight": -1,
+        "decomps": [
+            {
+                "structure": ".*",
+                "pattern": [
+                    "I'm not sure I understand you fully.",
+                    "Please go on.",
+                    "What does that suggest to you ?",
+                    "Do you feel strongly about discussing such things ?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "sorry",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": ".*",
+                "pattern": [
+                    "Please don't apologise.",
+                    "Apologies are not necessary.",
+                    "I've told you that apologies are not required."
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "remember",
+        "weight": 2,
+        "decomps": [
+            {
+                "structure": "(.*)i remember (.*)",
+                "pattern": [
+                    "Do you often think of {1}?",
+                    "Does thinking of {1} bring anything else to mind?",
+                    "What else do you recollect?",
+                    "Why do you recollect {1} just now?",
+                    "What in the present situation reminds you of {1}?",
+                    "What is the connection between me and {1}?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)do you remember (.*)",
+                "pattern": [
+                    "Did you think I would forget {1}?",
+                    "Why do you think I should recall {1} now?",
+                    "What about {1}?",
+                    "goto what",
+                    "You mentioned {1}?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "if",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": "(.*)if (.*)",
+                "pattern": [
+                    "Do you think its likely that {1}?",
+                    "Do you wish that {1}?",
+                    "What do you know about {1}?",
+                    "Really, if {1}?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "dreamed",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": "(.*)i dreamed (.*)",
+                "pattern": [
+                    "Really, {1}?",
+                    "Have you ever fantasized {1} while you were awake?",
+                    "Have you ever dreamed {1} before?",
+                    "goto dream"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "perhaps",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": ".*",
+                "pattern": [
+                    "You don't seem quite certain.",
+                    "Why the uncertain tone?",
+                    "Can't you be more positive?",
+                    "You aren't sure?",
+                    "Don't you know?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "name",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": ".*",
+                "pattern": [
+                    "I am not interested in names.",
+                    "I've told you before, I don't care about names -- please continue."
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "hello|hi",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": ".*",
+                "pattern": [
+                    "How do you do. Please state your problem.",
+                    "Hi. What seems to be your problem?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "computer",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": ".*",
+                "pattern": [
+                    "Do computers worry you?",
+                    "Why do you mention computers?",
+                    "What do you think machines have to do with your problem?",
+                    "Don't you think computers can help people?",
+                    "What about machines worries you?",
+                    "What do you think about machines?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "are",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": "(.*)are you (.*)",
+                "pattern": [
+                    "Why are you interested in whether I am {1} or not?",
+                    "Would you prefer if I weren't {1}?",
+                    "Perhaps I am {1} in your fantasies.",
+                    "Do you sometimes think I am {1}?",
+                    "goto what"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)are (.*)",
+                "pattern": [
+                    "Did you think they might not be {1}?",
+                    "Would you like it if they were not {1}?",
+                    "What if they were not {1}?",
+                    "Possibly they are {1}."
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "am",
+        "weight": 2,
+        "decomps": [
+            {
+                "structure": "(.*)am i (.*)",
+                "pattern": [
+                    "Do you believe you are {1}?",
+                    "Would you want to be {1}?",
+                    "Do you wish I would tell you you are {1}?",
+                    "What would it mean if you were {1}?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": ".*",
+                "pattern": [
+                    "Why do you say 'am'?",
+                    "I don't understand that."
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "dream",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": ".*",
+                "pattern": [
+                    "What does that dream suggest to you?",
+                    "Do you dream often?",
+                    "What persons appear in your dreams?",
+                    "Do you believe that dreams have something to do with your problems?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "was",
+        "weight": 2,
+        "decomps": [
+            {
+                "structure": "(.*)was i (.*)",
+                "pattern": [
+                    "What if you were {1}?",
+                    "Do you think you were {1}?",
+                    "Were you {1}?",
+                    "What would it mean if you were {1}?",
+                    "What does {1} suggest to you?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)i was (.*)",
+                "pattern": [
+                    "Were you really?",
+                    "Why do you tell me you were {1} now?",
+                    "Perhaps I already know you were {1}."
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)was you (.*)",
+                "pattern": [
+                    "Would you like to believe I was {1}?",
+                    "What suggests that I was {1}?",
+                    "What do you think?",
+                    "Perhaps I was {1}.",
+                    "What if I had been {1}?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "your",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": "(.*)your (.*)",
+                "pattern": [
+                    "Why are you concerned over my {1}?",
+                    "What about your own {1}?",
+                    "Are you worried about someone else's {1}?",
+                    "Really, my {1}?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "i|i'm",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": "(.*)i want (.*)",
+                "pattern": [
+                    "What would it mean to you if you got {1}?",
+                    "Why do you want {1}?",
+                    "Suppose you got {1} soon?",
+                    "What if you never got {1}?",
+                    "What would getting {1} mean to you?",
+                    "What does wanting {1} have to do with this discussion?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)i'm sad(.*)",
+                "pattern": [
+                    "I am sorry to hear that you are sad.",
+                    "Do you think that coming here will help you not to be sad?",
+                    "I'm sure it's not pleasant to be sad.",
+                    "Can you explain what made you sad?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)i'm happy(.*)",
+                "pattern": [
+                    "How have I helped you to be happy?",
+                    "Has your treatment made you happy?",
+                    "What makes you happy just now?",
+                    "Can you explain why you are suddenly happy?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "i believe (.*) i (.*)",
+                "pattern": [
+                    "Do you really think so?",
+                    "But you are not sure you {1}.",
+                    "Do you really doubt you {1}?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)i'm (.*)",
+                "pattern": [
+                    "Is it because you are {1} that you came to me?",
+                    "How long have you been {1}?",
+                    "Do you believe it is normal to be {1}?",
+                    "Do you enjoy being {1}?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)i can't (.*)",
+                "pattern": [
+                    "How do you think that you can't {1}?",
+                    "Have you tried?",
+                    "Perhaps you could {1} now.",
+                    "Do you really want to be able to {1}?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)i don't (.*)",
+                "pattern": [
+                    "Don't you really {1}?",
+                    "Why don't you {1}?",
+                    "Do you wish to be able to {1}?",
+                    "Does that trouble you?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)do i feel (.*)",
+                "pattern": [
+                    "Tell me more about such feelings.",
+                    "Do you often feel {1}?",
+                    "Do you enjoy feeling {1}?",
+                    "Of what does feeling {1} remind you?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "i (.*) you(.*)",
+                "pattern": [
+                    "Perhaps in your fantasies we {0} each other.",
+                    "Do you wish to {0} me?",
+                    "You seem to need to {0} me.",
+                    "Do you {0} anyone else?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)",
+                "pattern": [
+                    "You say {0}?",
+                    "Can you elaborate on that?",
+                    "Do you say {0} for some special reason?",
+                    "That's quite interesting."
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "you",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": "(.*)you're (.*)",
+                "pattern": [
+                    "What makes you think I am {1}?",
+                    "Does it please you to believe I am {1}?",
+                    "Do you sometimes wish you were {1}?",
+                    "Perhaps you would like to be {1}."
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)you (.*) me(.*)",
+                "pattern": [
+                    "Why do you think I {1} you?",
+                    "You like to think I {1} you don't you?",
+                    "What makes you think I {1} you?",
+                    "Really, I {1} you?",
+                    "Do you wish to believe I {1} you?",
+                    "Suppose I did {1} you what would that mean?",
+                    "Does someone else believe I {1} you?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)you (.*)",
+                "pattern": [
+                    "We were discussing you, not me.",
+                    "Oh, I {1}?",
+                    "You're not really talking about me, are you?",
+                    "What are your feelings now?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "yes",
+        "weight": 0,
+        "decomps": [
+            {
+                "structure": "(.*)",
+                "pattern": [
+                    "You seem to be quite positive.",
+                    "You are sure.",
+                    "I see.",
+                    "I understand."
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "no",
+        "weight": 0,
+        "decomps": [
+            {
+                "structure": "(.*)",
+                "pattern": [
+                    "Are you saying no just to be negative?",
+                    "You are being a bit negative.",
+                    "Why not?",
+                    "Why 'no'?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "my",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": "(.*)my (.*)",
+                "pattern": [
+                    "Your {1}?",
+                    "Why do you mention your {1}?",
+                    "Is your {1} important?",
+                    "Did you come to me to talk about your {1}?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "can",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": "(.*)can you (.*)",
+                "pattern": [
+                    "You believe I can {1} don't you?",
+                    "You want me to be able to {1}.",
+                    "Perhaps you would like to be able to {1} yourself."
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)can i (.*)",
+                "pattern": [
+                    "Whether or not you can {1} depends on you more than me.",
+                    "Do you want to be able to {1}?",
+                    "Perhaps you don't want to {1}."
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "what",
+        "weight": 0,
+        "decomps": [
+            {
+                "structure": "(.*)",
+                "pattern": [
+                    "Why do you ask?",
+                    "Does that question interest you?",
+                    "What is it you really wanted to know?",
+                    "Are such questions much on your mind?",
+                    "What answer would please you most?",
+                    "What do you think?",
+                    "What comes to mind when you ask that?",
+                    "Have you asked such questions before?",
+                    "Have you asked anyone else?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "because",
+        "weight": 0,
+        "decomps": [
+            {
+                "structure": "(.*)",
+                "pattern": [
+                    "Is that the real reason?",
+                    "Don't any other reasons come to mind?",
+                    "Does that reason seem to explain anything else?",
+                    "What other reasons might there be?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "why",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": "(.*)why don't you (.*)",
+                "pattern": [
+                    "Do you believe I don't {1}?",
+                    "Perhaps I will {1} in good time.",
+                    "Should you {1} yourself?",
+                    "You want me to {1}?"
+                ],
+                "index": 0
+            },
+            {
+                "structure": "(.*)why can't i (.*)",
+                "pattern": [
+                    "Do you think you should be able to {1}?",
+                    "Do you want to be able to {1}?",
+                    "Do you believe this will help you to {1}?",
+                    "Have you any idea why you can't {1}?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "everyone|everybody|nobody",
+        "weight": 1,
+        "decomps": [
+            {
+                "structure": "(.*)(everyone|everybody|nobody) (.*)",
+                "pattern": [
+                    "Really, {1}?",
+                    "Surely not {1}.",
+                    "Can you think of anyone in particular?",
+                    "Who, for example?",
+                    "Are you thinking of a very special person?",
+                    "Who do you think you're talking about?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "always",
+        "weight": 0,
+        "decomps": [
+            {
+                "structure": "(.*)",
+                "pattern": [
+                    "Can you think of a specific example?",
+                    "When?",
+                    "What incident are you thinking of?",
+                    "Really, always?"
+                ],
+                "index": 0
+            }
+        ]
+    },
+    {
+        "word": "same",
+        "weight": 0,
+        "decomps": [
+            {
+                "structure": ".*",
+                "pattern": [
+                    "In what way?",
+                    "What resemblance do you see?",
+                    "What does that similarity suggest to you?",
+                    "What other connections do you see?",
+                    "What do you suppose that resemblance means?",
+                    "What is the connection, do you suppose?",
+                    "Could there really be some connection?",
+                    "How?"
+                ],
+                "index": 0
+            }
+        ]
+    }
+]
