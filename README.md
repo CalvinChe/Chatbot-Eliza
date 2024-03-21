@@ -9,6 +9,7 @@ Warning: created for educational purposes, not meant to replace an actual psycho
 ## Usage/Examples
 
 ```bash
+python3 main.py
 HOW DO YOU DO. PLEASE TELL ME YOUR PROBLEM
 input: I think everyone hates me.
 Really, everyone?
@@ -31,6 +32,8 @@ Go to the project directory
 ```bash
   cd chatbot
 ```
+
+Run the program
 
 ```bash
   python3 main.py
